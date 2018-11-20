@@ -125,3 +125,10 @@ You can also view all the messages being published on a topic e.g. `/mobile_base
 ```
 rostopic echo mobile_base/commands/velocity
 ```
+### Inspecting the bag file
+
+- ```rqt_bag``` is a GUI tool to inspect,view and publish the bag files.
+```
+cd <path to repository>/results
+rqt_bag walker.bag
+```
